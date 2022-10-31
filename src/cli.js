@@ -1,4 +1,3 @@
 import readlineSync from 'readline-sync';
 
-const getAnswer = (questionText) => readlineSync.question(questionText);
-export default getAnswer;
+export default (questionText) => readlineSync.question(questionText);

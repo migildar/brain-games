@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
-import { greeting } from '../src/even.js';
+import { greeting } from '../src/common.js';
 
 greeting();
