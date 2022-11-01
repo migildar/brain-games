@@ -28,5 +28,5 @@ export default () => basisOfGames(descriptionGame, () => {
   const getRandomOperator = operators[getRandomeNumber(0, operators.length - 1)];
   const answer = String(calculate(number1, number2, getRandomOperator));
   const question = `${number1} ${getRandomOperator} ${number2}`;
-  return [question, answer];
+  return { question, answer };
 });

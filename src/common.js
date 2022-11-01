@@ -13,12 +13,12 @@ const basisOfGames = (descriptionGame, task) => {
   const nameUser = greeting();
   console.log(descriptionGame);
   for (let i = 0; i < roundsCount; i += 1) {
-    const [question, answer] = task();
-    console.log(`Question: ${question}`);
+    const result = task();
+    console.log(`Question: ${result.question}`);
     const userAnswer = getAnswer('Your answer: ');
 
-    if (answer !== userAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'. /n Let's try again, ${nameUser}!`);
+    if (result.answer !== userAnswer) {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${result.answer}'. /n Let's try again, ${nameUser}!`);
       return;
     }
     console.log('Correct!');

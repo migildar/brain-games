@@ -9,5 +9,5 @@ export default () => basisOfGames(descriptionGame, () => {
   const number = getRandomeNumber(0, 100);
   const question = String(number);
   const answer = isEven(number) ? 'yes' : 'no';
-  return [question, answer];
+  return { question, answer };
 });
