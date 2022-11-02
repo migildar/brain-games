@@ -6,3 +6,6 @@
 
 # Игра: "Калькулятор"
 <a href="https://asciinema.org/a/Mkj2XBlu9P4TNH4dKv5pMnCaM" target="_blank"><img src="https://asciinema.org/a/Mkj2XBlu9P4TNH4dKv5pMnCaM.svg" /></a>
+
+# Игра "НОД"
+<a href="https://asciinema.org/a/yDViYkmzWN8GEscv8hMhEONm7" target="_blank"><img src="https://asciinema.org/a/yDViYkmzWN8GEscv8hMhEONm7.svg" /></a>
