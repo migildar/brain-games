@@ -9,3 +9,6 @@
 
 # Игра "НОД"
 <a href="https://asciinema.org/a/yDViYkmzWN8GEscv8hMhEONm7" target="_blank"><img src="https://asciinema.org/a/yDViYkmzWN8GEscv8hMhEONm7.svg" /></a>
+
+# Игра "Арифметическая прогрессия"
+<a href="https://asciinema.org/a/j68PCUo17tm9haz0izC9Egij1" target="_blank"><img src="https://asciinema.org/a/j68PCUo17tm9haz0izC9Egij1.svg" /></a>
