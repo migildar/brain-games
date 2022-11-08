@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/migildar/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/migildar/frontend-project-lvl1/actions)",
+  "description": "Игры разума. Прокачай свой мозг",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/migildar/frontend-project-lvl1#readme",
   "dependencies": {
-    "ci": "^2.2.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
