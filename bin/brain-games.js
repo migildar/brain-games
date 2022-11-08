@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import { greeting } from '../src/common.js';
+import userName from '../src/cli.js';
 
-greeting();
+console.log('Welcome to the Brain Games!');
+userName();

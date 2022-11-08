@@ -1,5 +1,5 @@
 import getRandomeNumber from '../utils.js';
-import { basisOfGames } from '../common.js';
+import startGame from '../index.js';
 
 const descriptionGame = 'What number is missing in the progression?';
 
@@ -12,7 +12,7 @@ const generatingProgression = (length, start, step) => {
   return progression;
 };
 
-export default () => basisOfGames(descriptionGame, () => {
+const runTask = () => {
   const maxLength = 10;
   const minLength = 5;
   const length = getRandomeNumber(minLength, maxLength);
@@ -25,4 +25,6 @@ export default () => basisOfGames(descriptionGame, () => {
   progression[indexReplace] = replacementSymbol;
   const question = progression.join(' ');
   return { question, answer };
-});
+};
+
+export default () => startGame(descriptionGame, runTask);

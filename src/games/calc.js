@@ -1,27 +1,22 @@
-import { basisOfGames } from '../common.js';
 import getRandomeNumber from '../utils.js';
+import startGame from '../index.js';
 
 const descriptionGame = 'What is the result of the expression?';
 
 const calculate = (num1, num2, operator) => {
-  let result = 0;
   switch (operator) {
     case '+':
-      result = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      result = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      result = num1 * num2;
-      break;
+      return num1 * num2;
     default:
-      result = undefined;
+      return undefined;
   }
-  return result;
 };
 
-export default () => basisOfGames(descriptionGame, () => {
+const runTask = () => {
   const number1 = getRandomeNumber(0, 100);
   const number2 = getRandomeNumber(0, 100);
   const operators = ['+', '-', '*'];
@@ -29,4 +24,6 @@ export default () => basisOfGames(descriptionGame, () => {
   const answer = String(calculate(number1, number2, getRandomOperator));
   const question = `${number1} ${getRandomOperator} ${number2}`;
   return { question, answer };
-});
+};
+
+export default () => startGame(descriptionGame, runTask);
