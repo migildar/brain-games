@@ -21,9 +21,9 @@ const runTask = () => {
   const number2 = getRandomeNumber(0, 100);
   const operators = ['+', '-', '*'];
   const getRandomOperator = operators[getRandomeNumber(0, operators.length - 1)];
-  const answer = String(calculate(number1, number2, getRandomOperator));
+  const correctAnswer = String(calculate(number1, number2, getRandomOperator));
   const question = `${number1} ${getRandomOperator} ${number2}`;
-  return { question, answer };
+  return { question, correctAnswer };
 };
 
 export default () => startGame(descriptionGame, runTask);

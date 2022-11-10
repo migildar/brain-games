@@ -21,10 +21,10 @@ const runTask = () => {
   const progression = generatingProgression(length, start, step);
   const replacementSymbol = '..';
   const indexReplace = getRandomeNumber(0, length - 1);
-  const answer = String(progression[indexReplace]);
+  const correctAnswer = String(progression[indexReplace]);
   progression[indexReplace] = replacementSymbol;
   const question = progression.join(' ');
-  return { question, answer };
+  return { question, correctAnswer };
 };
 
 export default () => startGame(descriptionGame, runTask);

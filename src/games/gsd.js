@@ -12,9 +12,9 @@ const findGcd = (x, y) => {
 const runTask = () => {
   const number1 = getRandomeNumber(0, 100);
   const number2 = getRandomeNumber(0, 100);
-  const answer = String(findGcd(number1, number2));
+  const correctAnswer = String(findGcd(number1, number2));
   const question = `${number1} ${number2}`;
-  return { question, answer };
+  return { question, correctAnswer };
 };
 
 export default () => startGame(descriptionGame, runTask);
