@@ -13,7 +13,7 @@
 <a href="https://asciinema.org/a/536814" target="_blank"><img src="https://asciinema.org/a/536814.svg" /></a>
 
 # Игра "Арифметическая прогрессия"
-<a href="brain-progression" target="_blank"><img src="brain-progression.svg" /></a>
+<a href="https://asciinema.org/a/536897" target="_blank"><img src="https://asciinema.org/a/536897.svg" /></a>
 
 # Игра "Простое ли число?"
 <a href="https://asciinema.org/a/536817" target="_blank"><img src="https://asciinema.org/a/536817.svg" /></a>
