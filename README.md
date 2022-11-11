@@ -1,6 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/migildar/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/migildar/frontend-project-lvl1/actions)
 
+<a href="https://codeclimate.com/github/migildar/brain-games/maintainability"><img src="https://api.codeclimate.com/v1/badges/027071638201cb950c02/maintainability" /></a>
+
 # Игра: "Проверка на чётность"
 <a href="https://asciinema.org/a/536804" target="_blank"><img src="https://asciinema.org/a/536804.svg" /></a>
 
